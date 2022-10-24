@@ -81,3 +81,74 @@
 // }
 
 // let message = (login == 'Сотрудник') ? 'Привет' : (login == 'Директор') ? 'Здравствуйте' : (login == '') ? 'Нет логина' : '';
+
+// if (-1 || 0) alert( 'first' );
+// if (-1 && 0) alert( 'second' );
+// if (null || -1 && 1) alert( 'third' );
+
+// let login = prompt('Какой у вас логин?')
+// let password
+// if (login === 'Админ') {
+//     password = prompt('Какой у вас пароль?')
+// }
+// if (login === '' || login === null) {
+//     alert('Я вас не знаю')
+// }
+// if (password === 'Я главный') {
+//     alert('Здравствуйте')
+// } else if (password !== 'Я главный') {
+//     alert('Неверный пароль')
+// } else {
+//     alert('Отменено')
+// }
+
+// let userName = prompt("Кто там?", '');
+//
+// if (userName === 'Админ') {
+//
+//     let pass = prompt('Пароль?', '');
+//
+//     if (pass === 'Я главный') {
+//         alert( 'Здравствуйте!' );
+//     } else if (pass === '' || pass === null) {
+//         alert( 'Отменено' );
+//     } else {
+//         alert( 'Неверный пароль' );
+//     }
+//
+// } else if (userName === '' || userName === null) {
+//     alert( 'Отменено' );
+// } else {
+//     alert( "Я вас не знаю" );
+// }
+
+// let i = 3;
+//
+// while (i) {
+//     alert( i-- );
+// }
+
+// let i = 0;
+// while (i++ < 5) alert( i );
+
+// for (let i = 0; i < 5; ++i) alert( i );
+
+// for (let i = 0; i < 11; i++) {
+//
+//     if (i % 3) {
+//         alert( i );
+//     }
+//
+// }
+
+// for (let i = 2; i <= 10; i++) {
+//     if (i % 2 == 0) {
+//         alert( i );
+//     }
+// }
+
+// let i = 0;
+// while ( i < 3) {
+//     alert( `number ${i}!` );
+//     i++;
+// }
