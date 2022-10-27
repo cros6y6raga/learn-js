@@ -152,3 +152,101 @@
 //     alert( `number ${i}!` );
 //     i++;
 // }
+
+// let browser = prompt('Какой у вас браузер?');
+// if (browser==='Edge') {
+//     alert( "You've got the Edge!" );
+// }
+// else if (browser==='Chrome'||'Firefox'||'Safari'||'Opera') {
+//     alert( 'Okay we support these browsers too' );
+// }
+// else {alert( 'We hope that this page looks ok!' );} //неправильно
+
+// let browser = prompt('Какой у вас браузер?');
+// if(browser === 'Edge') {
+//     alert("You've got the Edge!");
+// } else if (browser === 'Chrome' || browser === 'Firefox' || browser === 'Safari' || browser === 'Opera') {
+//     alert( 'Okay we support these browsers too' );
+// } else {
+//     alert( 'We hope that this page looks ok!' );
+// } // правильно
+
+// const number = +prompt('Введите число между 0 и 3', '');
+//
+// if (number === 0) {
+//     alert('Вы ввели число 0');
+// }
+//
+// if (number === 1) {
+//     alert('Вы ввели число 1');
+// }
+//
+// if (number === 2 || number === 3) {
+//     alert('Вы ввели число 2, а может и 3');
+// }
+
+// const number = +prompt('Введите число между 0 и 3', '');
+// switch (number) {
+//     case 0:
+//         alert('Вы ввели число 0');
+//         break;
+//     case 1:
+//         alert('Вы ввели число 1');
+//         break;
+//     case 2:
+//     case 3:
+//         alert('Вы ввели число 2, а может и 3');
+//         break;
+// }
+
+// function checkAge(age) {
+//     if (age > 18) {
+//         return true;
+//     }
+//     // ...
+//     return confirm('Родители разрешили?');
+// }
+
+// function checkAge(age) {
+//     let result = age > 18 ? true : confirm('Родители разрешили?');
+// }
+
+// function checkAge(age) {
+//     let result = age > 18 ? true : confirm('Родители разрешили?');
+// }
+
+// function ask(question, yes, no) {
+//     if (confirm(question)) yes()
+//     else no();
+// }
+//
+// ask(
+//     "Вы согласны?",
+//     function() { alert("Вы согласились."); },
+//     function() { alert("Вы отменили выполнение."); }
+// );
+
+// let ask = (question, yes, no) => {
+//     if (confirm(question)) yes()
+//     else no();
+//     ask(
+//         "Вы согласны?",
+//         function () {
+//             alert("Вы согласились.");
+//         },
+//         function () {
+//             alert("Вы отменили выполнение.");
+//         }
+//     );
+// }
+//
+// function ask(question, yes, no) {
+//     if (confirm(question)) yes()
+//     else no();
+// }
+//
+// ask(
+//     "Вы согласны?",
+//     () => alert("Вы согласились."),
+//     () => alert("Вы отменили выполнение.")
+// );
