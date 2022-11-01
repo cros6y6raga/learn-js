@@ -264,3 +264,9 @@ delete user.name;
 //         alert(i)
 //     }
 // }
+
+// let str = "Привет";
+//
+// str.test = 5; // (*)
+//
+// alert(str.test);
