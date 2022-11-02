@@ -270,3 +270,27 @@ delete user.name;
 // str.test = 5; // (*)
 //
 // alert(str.test);
+
+// let matrix = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ];
+//
+// alert( matrix[1][1] );
+
+// let styles = ['Jazz', 'Blues'];
+// styles.push('Rock-n-roll');
+// styles[Math.floor((styles.length - 1) / 2)] = 'Classic';
+// alert( styles.shift() );
+// styles.unshift("Рэп", "Регги");
+// console.log(styles);
+
+// let arr = ["a", "b"];
+//
+// arr.push(function() {
+//     alert( this );
+// });
+//
+// arr[2](); // ?
+
