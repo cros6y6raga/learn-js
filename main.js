@@ -294,3 +294,6 @@ delete user.name;
 //
 // arr[2](); // ?
 
+// const sum = (a, b) => {
+//     alert(a + b);
+// }
