@@ -297,3 +297,5 @@ delete user.name;
 // const sum = (a, b) => {
 //     alert(a + b);
 // }
+
+// let a = ''
